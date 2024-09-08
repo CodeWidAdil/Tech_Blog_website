@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox vs. Grid: Which One to Use?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">My Blog</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Blog Post Content -->
+    <section class="post-content">
+        <div class="container">
+            <h1>CSS Flexbox vs. Grid: Which One to Use?</h1>
+            <p class="post-date">Posted on September 10, 2024</p>
+            <p>Flexbox is ideal for creating flexible, one-dimensional layouts along a single axis (row or column), making it perfect for aligning items in a navbar or sidebar. On the other hand, CSS Grid is a two-dimensional layout system that excels at creating complex grid-based layouts for entire web pages. While Flexbox is simpler and more suitable for small-scale components, Grid offers more control over large-scale, intricate layouts. The choice depends on the specific layout needs and the level of complexity required.</p>
+            <p>More content goes here...</p>
+        </div>
+    </section>
+
+    <!-- Comment Section -->
+    <section class="comments">
+        <div class="container">
+            <h2>Comments</h2>
+            <ul id="commentList">
+                <!-- Comments will be dynamically added here -->
+            </ul>
+            <form id="commentForm">
+                <input type="text" id="commentInput" placeholder="Add a comment..." required>
+                <button type="submit" class="btn">Post Comment</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Blog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

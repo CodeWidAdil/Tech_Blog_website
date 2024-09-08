@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding JavaScript Closures - My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">My Blog</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Blog Post Content -->
+    <section class="post-content">
+        <div class="container">
+            <h1>Understanding JavaScript Closures</h1>
+            <p class="post-date">Posted on September 10, 2024</p>
+            <p>Closures in JavaScript are functions that have access to their own scope, the scope of the outer function, and the global scope. They are created whenever a function is defined inside another function, allowing the inner function to access the outer function's variables even after the outer function has executed. Closures are powerful for creating private variables and functions, as well as for maintaining state in asynchronous code. They are a key concept in JavaScript that helps in writing more modular and secure code.</p>
+            <p>More content goes here...</p>
+        </div>
+    </section>
+
+    <!-- Comment Section -->
+    <section class="comments">
+        <div class="container">
+            <h2>Comments</h2>
+            <ul id="commentList">
+                <!-- Comments will be dynamically added here -->
+            </ul>
+            <form id="commentForm">
+                <input type="text" id="commentInput" placeholder="Add a comment..." required>
+                <button type="submit" class="btn">Post Comment</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Blog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
